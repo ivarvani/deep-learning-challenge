@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 # Alphabet Soup Funding Model
 
-=======
->>>>>>> caccdfe2049b790458276d046a4e27871e9ac8b8
+======
 ## Overview of the Analysis
 
 # Alphabet Soup Funding Model
@@ -33,14 +32,14 @@
 
 ![original_results](Images/AlphabetSoupCharity.PNG)
 
-* By selecting 80 neurons in the first hidden layer (units_1 = 80), 30 neurons in the second hidden layer (units_2 = 30), and using the ReLU activation function (activation="relu") for both hidden layers, you aimed to create a model with sufficient complexity to capture and learn meaningful patterns in the data. The choice of ReLU activation helps introduce non-linearity and allows the model to learn complex relationships between the input features and the target variable.
+* By selecting 16 neurons in the first hidden layer (units_1 = 16), 5 neurons in the second hidden layer (units_2 = 5), and using the ReLU activation function (activation="relu") for both hidden layers, you aimed to create a model with sufficient complexity to capture and learn meaningful patterns in the data. The choice of ReLU activation helps introduce non-linearity and allows the model to learn complex relationships between the input features and the target variable.
 
 * Additionally, you used a single neuron in the output layer (units=1) with a sigmoid activation function (activation="sigmoid") to model the binary classification problem. The sigmoid activation function maps the output to a range between 0 and 1, representing the probability of the positive class.
 
 * In summary, the model architecture with the chosen number of neurons, layers, and activation functions aimed to strike a balance between complexity and simplicity, allowing the model to learn and generalize well on the given classification task.
 
 #### Were you able to achieve the target model performance?
-* As you can see below I was only able to achieve 73%, which was not the target model performance which was 75%. 
+* As you can see below I was only able to achieve 72%, which was not the target model performance which was 75%. 
 
 ![original_results](images/opt_3.JPG)
 
