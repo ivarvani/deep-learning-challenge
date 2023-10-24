@@ -42,7 +42,7 @@
 #### Were you able to achieve the target model performance?
 * As you can see below I was only able to achieve 73%, which was not the target model performance which was 75%. 
 
-![original_results](images/original_results.JPG)
+![original_results][Images/AlphabetSoupCharity.PNG]
 
 #### What steps did you take in your attempts to increase model performance?
 1. Increasing the number of neurons and epochs:
