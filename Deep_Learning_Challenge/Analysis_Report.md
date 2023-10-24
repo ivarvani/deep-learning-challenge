@@ -31,7 +31,7 @@
 #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 * In my first neural network model, I used a two-layer architecture with a specific choice for the number of neurons, layers, and activation functions.
 
-![original_results]([Images/AlphabetSoupCharity.PNG])
+![original_results](Images/AlphabetSoupCharity.PNG)
 
 * By selecting 80 neurons in the first hidden layer (units_1 = 80), 30 neurons in the second hidden layer (units_2 = 30), and using the ReLU activation function (activation="relu") for both hidden layers, you aimed to create a model with sufficient complexity to capture and learn meaningful patterns in the data. The choice of ReLU activation helps introduce non-linearity and allows the model to learn complex relationships between the input features and the target variable.
 
@@ -42,7 +42,7 @@
 #### Were you able to achieve the target model performance?
 * As you can see below I was only able to achieve 73%, which was not the target model performance which was 75%. 
 
-![original_results](Images/AlphabetSoupCharity.PNG)
+![original_results]()
 
 #### What steps did you take in your attempts to increase model performance?
 1. Increasing the number of neurons and epochs:
