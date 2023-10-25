@@ -37,40 +37,40 @@
 #### Were you able to achieve the target model performance?
 * As you can see below I was only able to achieve 72%, which was not the target model performance which was 75%. 
 
-![original_results](Images/AlphabetSoup_Output.PNG)
+![original_results](Deep_Learning_Challenge/Images/AlphabetSoup_Output.PNG)
 
 #### What steps did you take in your attempts to increase model performance?
 1. Increasing the number of epochs:
    
-![opt_1](Images/Increase_epochs.PNG)
+![opt_1](Deep_Learning_Challenge/Images/Increase_epochs.PNG)
 
 * Increasing the number of epochs gives the model more opportunities to learn from the data and adjust the weights. It allows the model to refine its predictions and find better parameter values, which can lead to improved accuracy. However, it's important to find a balance as increasing epochs excessively can lead to overfitting.
 
-![opt_1_results](Images/Increase_epochs_accuracy.PNG)
+![opt_1_results](Deep_Learning_Challenge/Images/Increase_epochs_accuracy.PNG)
 
 * As you can see, I was only able to achieve ~ 73%.
 
 2. Adding more layers and nuerons to the model:
 
-![opt_2](Images/adding_more_hidden_layers.PNG)
+![opt_2](Deep_Learning_Challenge/Images/adding_more_hidden_layers.PNG)
 
 * Adding more layers can provide the model with additional capacity to capture and represent intricate relationships within the data. Each layer can learn different levels of abstraction, enabling the model to extract more meaningful features and potentially improving accuracy. Deep models with multiple layers have the ability to learn hierarchical representations of the data, which can be advantageous for complex problems.
 * * By increasing the number of neurons in a layer, the model becomes more expressive and can capture complex patterns in the data. This allows for better representation of the underlying relationships between the features and the target variable, potentially leading to higher accuracy.
   
-![opt_2_results](Images/more_hidden_layers_accuracy.PNG)
+![opt_2_results](Deep_Learning_Challenge/Images/more_hidden_layers_accuracy.PNG)
 
 * Again, I was only able to achieve ~ 73%
 
 
 3. Dropping one extra feature (STATUS):
    
-![opt_4](Images/dropping_columns.PNG)
+![opt_4](Deep_Learning_Challenge/Images/dropping_columns.PNG)
 * model will now have 42 input_dim
-![opt_4](Images/Model_dropping_one_column.PNG)
+![opt_4](Deep_Learning_Challenge/Images/Model_dropping_one_column.PNG)
 
 
 * results
-![opt_4_results](Images/drop_column_accuracy.PNG)
+![opt_4_results](Deep_Learning_Challenge/Images/drop_column_accuracy.PNG)
 
 * Again, I was only able to achieve ~ 73%
 
