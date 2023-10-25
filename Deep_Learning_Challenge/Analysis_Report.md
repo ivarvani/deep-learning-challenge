@@ -1,7 +1,5 @@
-
 # Alphabet Soup Funding Model
 
-======
 ## Overview of the Analysis
 
 # Alphabet Soup Funding Model
@@ -30,7 +28,7 @@
 #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 * In my first neural network model, I used a two-layer architecture with a specific choice for the number of neurons, layers, and activation functions.
 
-![original_results](Images/AlphabetSoupCharity.PNG)
+![original_results](Images/first_model.PNG)
 
 * By selecting 16 neurons in the first hidden layer (units_1 = 16), 5 neurons in the second hidden layer (units_2 = 5), and using the ReLU activation function  and (activation="relu") for both hidden layers, you aimed to create a model with sufficient complexity to capture and learn meaningful patterns in the data. The choice of ReLU activation helps introduce non-linearity and allows the model to learn complex relationships between the input features and the target variable.
 
