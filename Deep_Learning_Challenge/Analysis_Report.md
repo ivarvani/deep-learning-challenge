@@ -44,46 +44,39 @@
 ![original_results](Images/AlphabetSoup_Output.PNG)
 
 #### What steps did you take in your attempts to increase model performance?
-1. Increasing the number of neurons and epochs:
+1. Increasing the number of epochs:
    
-![opt_1](images/opt_1.JPG)
+![opt_1](Images/Increase_epochs.PNG)
 
-* By increasing the number of neurons in a layer, the model becomes more expressive and can capture complex patterns in the data. This allows for better representation of the underlying relationships between the features and the target variable, potentially leading to higher accuracy.
 * Increasing the number of epochs gives the model more opportunities to learn from the data and adjust the weights. It allows the model to refine its predictions and find better parameter values, which can lead to improved accuracy. However, it's important to find a balance as increasing epochs excessively can lead to overfitting.
 
-![opt_1_results](images/opt_1_results.JPG)
+![opt_1_results](Images/Increase_epochs_accuracy.PNG)
 
-* As you can see, I was only able to achieve 73%.
+* As you can see, I was only able to achieve ~ 73%.
 
-2. Adding more layers to the model:
+2. Adding more layers and nuerons to the model:
 
-![opt_2](images/opt_2.JPG)
+![opt_2](Images/adding_more_hidden_layers.PNG)
 
 * Adding more layers can provide the model with additional capacity to capture and represent intricate relationships within the data. Each layer can learn different levels of abstraction, enabling the model to extract more meaningful features and potentially improving accuracy. Deep models with multiple layers have the ability to learn hierarchical representations of the data, which can be advantageous for complex problems.
+* * By increasing the number of neurons in a layer, the model becomes more expressive and can capture complex patterns in the data. This allows for better representation of the underlying relationships between the features and the target variable, potentially leading to higher accuracy.
   
-![opt_2_results](images/opt_2_results.JPG)
+![opt_2_results](Images/more_hidden_layers_accuracy.PNG)
 
-* Again, I was only able to achieve 73%
+* Again, I was only able to achieve ~ 73%
 
-3. Using a different activation function (tanh for the second layer):
+
+3. Dropping one extra feature (STATUS):
    
-![opt_3](images/opt_3.JPG)
+![opt_4](Images/dropping_columns.PNG)
+* model will now have 42 input_dim
+![opt_4](Images/Model_dropping_one_column.PNG)
 
-* Introducing a different activation function, such as tanh, can affect how the model interprets and transforms the inputs. Different activation functions have different properties and can capture different types of non-linearities. By using tanh, it introduce a different non-linearity that may better suit the problem at hand, potentially leading to increased accuracy.
 
-![opt_3_results](images/opt_3_results.JPG)
+* results
+![opt_4_results](Images/drop_column_accuracy.PNG)
 
-* Again, I was only able to achieve 73%
-
-4. Dropping one extra feature (STATUS):
-   
-![opt_4](images/opt_4.JPG)
-
-* Automated optimisers, like hyperparameter tuners, systematically explore various combinations of hyperparameters, such as activation functions, number of layers, number of neurons, and epochs. This exploration can help identify the most optimal combination of hyperparameters for your specific problem, potentially leading to higher accuracy. It saves you from manually trying out different combinations and allows the optimiser to leverage its search algorithms to find the best configuration.
-  
-![opt_4_results](images/opt_4_results.JPG)
-
-* Again, I was only able to achieve 73%
+* Again, I was only able to achieve ~ 73%
 
 ## Conclusion
 The deep learning model that I have developed was unable to achieve accuracy higher than 73%. To further improve the model's performance, I can consider the following steps:
